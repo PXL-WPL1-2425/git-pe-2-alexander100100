@@ -7,14 +7,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #101828; /* Achtergrondkleur */
+    background-color: #101828;
 }
 
-/* Algemene styling voor de navigatiebalk */
+
 .navbar {
-    display: flex; /* Flexbox gebruiken */
-    justify-content: center; /* Centreer de nav-links container horizontaal */
-    align-items: center; /* Centreer de items verticaal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px 40px;
     width: 100%;
     position: absolute;
@@ -41,5 +41,3 @@ body {
 .nav-item:hover {
     color: #ff0000;
 }
-
-.
