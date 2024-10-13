@@ -7,6 +7,23 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #101828;
+    height: 100vh;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.hero_new__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .navbar {
@@ -15,13 +32,13 @@ body {
     align-items: center;
     padding: 20px 40px;
     width: 100%;
-    position: absolute;
-    top: 0;
     color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .logo img {
-    height: 40px;
+    height: 80px;
 }
 
 .nav-links {
@@ -44,6 +61,7 @@ body {
     font-size: 14pt;
     text-decoration: none;
     transition: color 0.3s;
+    white-space: nowrap;
 }
 
 .nav-item a:hover {
@@ -51,5 +69,21 @@ body {
 }
 
 .right-container {
+}
 
+.sign-in-btn {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 14pt;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+.sign-in-btn:hover {
+    background-color: white;
 }
