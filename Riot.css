@@ -1,4 +1,4 @@
-/* Reset browser default margins */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,13 +13,18 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
     width: 100%;
     position: absolute;
     top: 0;
     color: white;
+}
+
+
+.logo img {
+    height: 40px;
 }
 
 
@@ -41,3 +46,4 @@ body {
 .nav-item:hover {
     color: #ff0000;
 }
+
