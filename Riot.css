@@ -1,0 +1,45 @@
+/* Reset browser default margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101828; /* Achtergrondkleur */
+}
+
+/* Algemene styling voor de navigatiebalk */
+.navbar {
+    display: flex; /* Flexbox gebruiken */
+    justify-content: center; /* Centreer de nav-links container horizontaal */
+    align-items: center; /* Centreer de items verticaal */
+    padding: 20px 40px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+
+.nav-item {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+
+.nav-item:hover {
+    color: #ff0000;
+}
+
+.
